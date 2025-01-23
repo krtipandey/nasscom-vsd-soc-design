@@ -4,11 +4,11 @@
 
 1. Run 'picorv32a' design synthesis using OpenLANE flow and generate necessary outputs.
 2. Calculate the Flop ratio and the percentage of D-FFs.
-<br>
+
 Running Synthesis
 ![image](https://github.com/user-attachments/assets/7e74ea30-7885-47af-b10f-233c92e72129)
 ![image](https://github.com/user-attachments/assets/ddc7eb28-4fa2-4a41-b6af-5e8d59314b0f)
-<br>
+
 Synthesis Statistics File
 ![image](https://github.com/user-attachments/assets/c8c0e47b-6ed7-4105-87ef-610cbfd52234)
 
@@ -23,11 +23,11 @@ $$
 3. Load the generated floorplan in magic tool
 4. Run the 'picorv32a' design congestion aware placement in the OpenLANE flow
 5. Load the generated placement in the magic tool
-<br>
+
 Running Floorplan
 ![image](https://github.com/user-attachments/assets/2f41a03c-3713-4a62-83c0-850dbf438072)
 ![image](https://github.com/user-attachments/assets/73823ad5-564f-4bbf-8689-6b01dcb21432)
-<br>
+
 Floorplan Layout using Klayout
 ![image](https://github.com/user-attachments/assets/5e8f0a2e-f36d-46b2-9ba6-b288684a4acb)
 
@@ -53,7 +53,7 @@ $$
 Area\ of\ die\ in\ microns\ = 660.685 \times 671.405 = 443587.2124\ square\ microns
 $$
 
-<br>
+
 Floorplan Analysis using Magic Tool
 ![image](https://github.com/user-attachments/assets/9fd052b2-da64-4d75-9661-33074708c108)
 Horizontal and Vertical port cells
