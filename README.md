@@ -92,6 +92,11 @@ Loading the inverter layout using Magic Tool
 Identifying PMOS and NMOS
 ![image](https://github.com/user-attachments/assets/52c02f14-922b-4587-b639-35ef3dbc6958)
 ![image](https://github.com/user-attachments/assets/de04f66f-e1dc-4ad4-87b3-36503517a4e1)
-
+Output Y connectivity to PMOS and NMOS drain verified
+![image](https://github.com/user-attachments/assets/333e1771-b7a7-4c44-b792-17f27a423f72)
+PMOS source connectivity to PWR verified
+![image](https://github.com/user-attachments/assets/293b6a93-f8bf-401f-ac0d-426edb64387a)
+NMOS source connectivity to GND verified
+![image](https://github.com/user-attachments/assets/3b7dd681-2af6-45b9-938e-e0fe7e0f8e36)
 
 
