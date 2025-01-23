@@ -71,3 +71,13 @@ Powerlines
 ![image](https://github.com/user-attachments/assets/5ca24744-5ee4-40d1-8fe7-d0afea6a9a37)
 
 
+## Design library cell using Magic Layout and ngspice characterization
+
+1. Using the IO placer to change the distance between tap cells
+2. Clone the standard cell design for an inverter from a github repository
+3. Load the invertor layout in magic tool
+4. Performing spice extraction of invertor in magic tool
+5. Editing the SPICE model file and graphical simulation
+6. Find the error in the magic tech file and fix them
+
+
