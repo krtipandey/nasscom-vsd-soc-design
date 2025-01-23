@@ -80,4 +80,18 @@ Powerlines
 5. Editing the SPICE model file and graphical simulation
 6. Find the error in the magic tech file and fix them
 
+Changing the spacing between the port cells
+![image](https://github.com/user-attachments/assets/7633970e-4f23-4f9a-9df8-79e79b6265c3)
+![image](https://github.com/user-attachments/assets/ced14750-1709-4166-aeaf-5244cfd3c2b6)
+
+Cloning the std cell design for inverter
+![image](https://github.com/user-attachments/assets/fce23dc4-11c6-4ddb-a99b-b27a02ca8da9)
+
+Loading the inverter layout using Magic Tool
+![image](https://github.com/user-attachments/assets/511c55ab-be71-4f8f-8ac9-05d710386790)
+Identifying PMOS and NMOS
+![image](https://github.com/user-attachments/assets/52c02f14-922b-4587-b639-35ef3dbc6958)
+![image](https://github.com/user-attachments/assets/de04f66f-e1dc-4ad4-87b3-36503517a4e1)
+
+
 
