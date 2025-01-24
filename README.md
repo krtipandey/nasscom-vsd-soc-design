@@ -12,9 +12,7 @@ Running Synthesis
 Synthesis Statistics File
 ![image](https://github.com/user-attachments/assets/c8c0e47b-6ed7-4105-87ef-610cbfd52234)
 
-$$
-Flop\ Ratio = \frac{Number\ of\ D\ Flip\ Flops\}{Total\ number\ of\ cells\} = \frac{1613}{14876} = 0.10842
-$$
+Flop Ratio = (Number of D Flip Flops) / (Total number of cells) = 1613 / 14876 = 0.10842
 
 
 ## Good Floorplan vs bad floorplan and introduction to library cells
@@ -33,25 +31,15 @@ Floorplan Layout using Klayout<br>
 
 According to floorplan,  1000 unit distance = 1 micron
 
-$$
-Die\ width = 660685
-$$
+Die width = 660685
 
-$$
-Die\ height = 671405
-$$
+Die height = 671405
 
-$$
-Die\ width\ in\ microns\ = \frac{660685}{1000} = 660.685\ microns
-$$
+Die width in microns = 660685 / 1000 = 660.685 microns
 
-$$
-Die\ height\ in\ microns\ = \frac{671405}{1000} = 671.405\ microns
-$$
+Die height in microns = 671405 / 1000 = 671.405 microns
 
-$$
-Area\ of\ die\ in\ microns\ = 660.685 \times 671.405 = 443587.2124\ square\ microns
-$$
+Area of die in microns = 660.685 * 671.405 = 443587.2124 square microns
 
 
 Floorplan Analysis using Magic Tool
@@ -99,6 +87,12 @@ PMOS source connectivity to PWR verified
 NMOS source connectivity to GND verified
 ![image](https://github.com/user-attachments/assets/3b7dd681-2af6-45b9-938e-e0fe7e0f8e36)
 
+Creating a Spice File through tkcon
+![image](https://github.com/user-attachments/assets/e2504306-f4db-4c7d-9d13-e3a8d09f6075)
+![image](https://github.com/user-attachments/assets/1ccfd030-0759-46c2-974b-2ec33d7014c0)
+
+Measuring unit distance in layout grid
+![image](https://github.com/user-attachments/assets/d93ade76-f671-4622-9771-3af3c51a3783)
 
 Edited Spice File
 ![image](https://github.com/user-attachments/assets/8932b44b-c669-434c-9aff-b49faff7f31a)
@@ -108,26 +102,22 @@ Plotting the graph using ngspice
 
 1. Rise Time
    The time taken for the output waveform to transition from 20% to 80% of its maximum value.
-$$
-Rise\ transition\ time\ = 2.2673\ - 2.1942\ = 0.0731\ ns
-$$
+
+   Rise transition time = 2.2673 - 2.1942 = 0.0731 ns
 
 2. Fall Time
    The time taken for the output waveform to transition from 80% to 20% of its maximum value.
-$$
-Fall\ transition\ time\ = 4.0754\ - 4.0378\ = 0.0376\ ns
-$$
+
+   Fall transition time = 4.0754 - 4.0378 = 0.0376 ns
 
 3. Cell Rise Delay
    The time taken for a 50% transition at the output (0 to 1) corresponding to a 50% transition at the input (1 to 0).
-$$
-Cell\ rise\ delay\ = 2.2102\ - 2.1675\ = 0.0427\ ns 
-$$
+
+   Cell rise delay = 2.2102 - 2.1675 = 0.0427 ns
 
 4. Cell fall delay
    The time taken for a 50% transition at the output (1 to 0) corresponding to a 50% transition at the input (0 to 1).
-$$
-Cell\ fall\ delay\ = 4.0842\ - 4.0621\ = 0.0221\ ns 
-$$
+
+   Cell fall delay = 4.0842 - 4.0621 = 0.0221 ns
 
 
