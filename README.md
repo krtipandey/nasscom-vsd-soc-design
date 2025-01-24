@@ -100,3 +100,34 @@ NMOS source connectivity to GND verified
 ![image](https://github.com/user-attachments/assets/3b7dd681-2af6-45b9-938e-e0fe7e0f8e36)
 
 
+Edited Spice File
+![image](https://github.com/user-attachments/assets/8932b44b-c669-434c-9aff-b49faff7f31a)
+Plotting the graph using ngspice
+![image](https://github.com/user-attachments/assets/2a544903-65a4-4957-9083-a9e25040a4db)
+![image](https://github.com/user-attachments/assets/7596034d-b23e-4dde-98a3-bd5f9f19c228)
+
+1. Rise Time
+   The time taken for the output waveform to transition from 20% to 80% of its maximum value.
+$$
+Rise\ transition\ time\ = 2.2673\ - 2.1942\ = 0.0731\ ns
+$$
+
+2. Fall Time
+   The time taken for the output waveform to transition from 80% to 20% of its maximum value.
+$$
+Fall\ transition\ time\ = 4.0754\ - 4.0378\ = 0.0376\ ns
+$$
+
+3. Cell Rise Delay
+   The time taken for a 50% transition at the output (0 to 1) corresponding to a 50% transition at the input (1 to 0).
+$$
+Cell\ rise\ delay\ = 2.2102\ - 2.1675\ = 0.0427\ ns 
+$$
+
+4. Cell fall delay
+   The time taken for a 50% transition at the output (1 to 0) corresponding to a 50% transition at the input (0 to 1).
+$$
+Cell\ fall\ delay\ = 4.0842\ - 4.0621\ = 0.0221\ ns 
+$$
+
+
